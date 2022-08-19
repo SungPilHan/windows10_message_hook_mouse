@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="exe">
+      <UniqueIdentifier>{fc99a30b-8ff2-441e-b963-a3cb88681bc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{018ef390-ddd3-47cb-bef4-126f83b9f7fb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="analog_note_exe.h">
+      <Filter>exe</Filter>
+    </ClInclude>
+    <ClInclude Include="analog_note_exeDlg.h">
+      <Filter>exe</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>exe</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>exe</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>exe</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>exe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="analog_note_exe.cpp">
+      <Filter>exe</Filter>
+    </ClCompile>
+    <ClCompile Include="analog_note_exeDlg.cpp">
+      <Filter>exe</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>exe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\analog_note_exe.ico">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="analognoteexe.rc">
+      <Filter>res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\analognoteexe.rc2">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+</Project>
